@@ -1,1 +1,158 @@
-[{"name":"Izolirani","icao":"IZOL","positionTop":"23.854166666667vh","positionRight":"26.016vw","innerWidth":896,"nameRotate":"90deg","nameTop":"846px","nameRight":"140px","ATC":[],"ATCPanelTop":669,"ATCPanelRight":1120},{"name":"Cyprus","icao":"ILAR","positionTop":"43.69791666666667vh","positionRight":"32.97vw","innerWidth":1057,"nameRotate":"90deg","ATC":[],"ATCPanelTop":669,"ATCPanelRight":1120},{"name":"Greater Rockford","icao":"IRFD","positionTop":"36.66666666666667vh","positionRight":"52.66vw","innerWidth":776,"nameRotate":"90deg","ATC":[],"ATCPanelTop":669,"ATCPanelRight":1120},{"name":"Grindavik","icao":"IGRV","positionTop":"27.34375vh","positionRight":"70.16vw","innerWidth":1203,"nameRotate":"90deg","ATC":[],"ATCPanelTop":669,"ATCPanelRight":1120},{"name":"Sauthemptona","icao":"ISAU","positionTop":"42.60416666666667vh","positionRight":"71.61vw","innerWidth":802,"nameRotate":"90deg","ATC":[],"ATCPanelTop":669,"ATCPanelRight":1120},{"name":"Perth","icao":"IPPH","positionTop":"10.96875vh","positionRight":"35.79vw","innerWidth":1058,"nameRotate":"90deg","ATC":[],"ATCPanelTop":669,"ATCPanelRight":1120},{"name":"Tokyo","icao":"ITKO","positionTop":"2.177083333333333vh","positionRight":"49.32vw","innerWidth":888,"nameRotate":"90deg","ATC":[],"ATCPanelTop":669,"ATCPanelRight":1120}]
+[
+  {
+    "name": "Izolirani",
+    "icao": "IZOL",
+    "positionTop": "458",
+    "positionRight": "499.5",
+    "innerWidth": 1200,
+    "nameRotate": "90deg",
+    "nameTop": "846px",
+    "nameRight": "140px",
+    "ATC": [],
+    "weather": {
+      "temp": "+25",
+      "clouds": "Облачно",
+      "wind": "1м/c"
+    },
+    "flights": [],
+    "media": [
+      "https://media.discordapp.net/attachments/1020741286451478568/1145711031641981039/2023-08-28_16-24-00.png?width=1010&height=546",
+      "https://media.discordapp.net/attachments/1020741286451478568/1145711032573112330/2023-08-28_16-24-22.png?width=1005&height=545"
+    ],
+    "ATCPanelTop": 669,
+    "ATCPanelRight": 1120
+  },
+  {
+    "name": "Cyprus",
+    "icao": "ILAR",
+    "positionTop": "837.5",
+    "positionRight": "633",
+    "innerWidth": 2400,
+    "nameRotate": "90deg",
+    "ATC": [],
+    "weather": {
+      "temp": "+28",
+      "clouds": "Ясно",
+      "wind": "1,2м/c"
+    },
+    "flights": [],
+    "media": [
+      "https://media.discordapp.net/attachments/1033012406202417172/1145737422353744053/RobloxScreenShot20230828_180738697.png?width=971&height=546",
+      "https://media.discordapp.net/attachments/1033012406202417172/1145737423360360559/RobloxScreenShot20230828_180908695.png?width=971&height=546"
+    ],
+    "ATCPanelTop": 669,
+    "ATCPanelRight": 1120
+  },
+  {
+    "name": "Greater Rockford",
+    "icao": "IRFD",
+    "positionTop": "706.5",
+    "positionRight": "1007.28",
+    "innerWidth": 1300,
+    "nameRotate": "90deg",
+    "weather": {
+      "temp": "+19",
+      "clouds": "Переменная облачность",
+      "wind": "12м/c"
+    },
+    "flights": [],
+    "media": [
+      "https://media.discordapp.net/attachments/1020741286451478568/1146027638989795418/2023-08-29_12-03-05.png?width=1005&height=545",
+      "https://media.discordapp.net/attachments/1020741286451478568/1146027639358889994/2023-08-29_12-02-49.png?width=1007&height=546",
+      "https://media.discordapp.net/attachments/1020741286451478568/1146027640420061277/2023-08-29_12-02-23.png?width=1004&height=546"
+    ],
+    "ATC": [],
+    "ATCPanelTop": 669,
+    "ATCPanelRight": 1120
+  },
+  {
+    "name": "Grindavik",
+    "icao": "IGRV",
+    "media": [
+      "https://media.discordapp.net/attachments/1020741286451478568/1146164281117773944/RobloxScreenShot20230829_222421900_2.png?width=1007&height=546",
+      "https://media.discordapp.net/attachments/1020741286451478568/1146164280333439137/RobloxScreenShot20230829_222447299_2.png?width=1002&height=546",
+      "https://media.discordapp.net/attachments/1020741286451478568/1146164280706748558/RobloxScreenShot20230829_222431819_2.png?width=1007&height=546",
+      "https://media.discordapp.net/attachments/1020741286451478568/1146164279884664862/RobloxScreenShot20230829_222454297_2.png?width=1009&height=546"
+    ],
+    "positionTop": "528",
+    "positionRight": "1348",
+    "innerWidth": 500,
+    "nameRotate": "90deg",
+    "ATC": [],
+    "weather": {
+      "temp": "+16",
+      "clouds": "Дождь",
+      "wind": "10,7м/c"
+    },
+    "flights": [],
+    "ATCPanelTop": 669,
+    "ATCPanelRight": 1120
+  },
+  {
+    "name": "Sauthemptona",
+    "icao": "ISAU",
+    "media": [
+      "https://media.discordapp.net/attachments/1033012406202417172/1145734267633160345/RobloxScreenShot20230828_175733874.png?width=971&height=546",
+      "https://media.discordapp.net/attachments/1033012406202417172/1145734268002254868/RobloxScreenShot20230828_175752845.png?width=971&height=546",
+      "https://media.discordapp.net/attachments/1033012406202417172/1145734268287459420/RobloxScreenShot20230828_175758856.png?width=971&height=546"
+    ],
+    "positionTop": "816",
+    "positionRight": "1375",
+    "innerWidth": 602,
+    "nameRotate": "90deg",
+    "ATC": [],
+    "weather": {
+      "temp": "-20",
+      "clouds": "Ясно",
+      "wind": "1,7м/c"
+    },
+    "flights": [],
+    "ATCPanelTop": 669,
+    "ATCPanelRight": 1120
+  },
+  {
+    "name": "Perth",
+    "icao": "IPPH",
+    "media": [
+      "https://media.discordapp.net/attachments/1033012406202417172/1145734267113062611/RobloxScreenShot20230828_175713876.png?width=971&height=546",
+      "https://media.discordapp.net/attachments/1033012406202417172/1145734266790097017/RobloxScreenShot20230828_175632062.png?width=971&height=546",
+      "https://media.discordapp.net/attachments/1020741286451478568/1146172055692263465/RobloxScreenShot20230829_223516326.png?width=1010&height=546",
+      "https://media.discordapp.net/attachments/1020741286451478568/1146172056229130403/RobloxScreenShot20230829_223542638.png?width=1014&height=546"
+    ],
+    "positionTop": "345.29",
+    "positionRight": "668.5",
+    "innerWidth": 1058,
+    "nameRotate": "90deg",
+    "ATC": [],
+    "ATCPanelTop": 669,
+    "weather": {
+      "temp": "+25",
+      "clouds": "Дождь",
+      "wind": "2,7м/c"
+    },
+    "flights": [],
+    "ATCPanelRight": 1120
+  },
+  {
+    "name": "Tokyo",
+    "icao": "ITKO",
+    "media": [
+      "https://media.discordapp.net/attachments/1020741286451478568/1146171983353106463/RobloxScreenShot20230829_223218516_2.png?width=1004&height=546",
+      "https://media.discordapp.net/attachments/1020741286451478568/1146171983906738346/RobloxScreenShot20230829_223241357.png?width=1009&height=546",
+      "https://media.discordapp.net/attachments/1020741286451478568/1146171984301019277/RobloxScreenShot20230829_223300558.png?width=1004&height=546"
+    ],
+    "positionTop": "135",
+    "positionRight": "949",
+    "innerWidth": 1758,
+    "nameRotate": "90deg",
+    "ATC": [],
+    "weather": {
+      "temp": "+20",
+      "clouds": "Ясно",
+      "wind": "2м/c"
+    },
+    "flights": [],
+    "ATCPanelTop": 669,
+    "ATCPanelRight": 1120
+  }
+]
