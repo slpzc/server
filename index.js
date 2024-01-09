@@ -1,4 +1,5 @@
 const express = require('express')
+const { createServer } = require('node:http');
 const app = express()
 const cors = require('cors')
 const fs = require("fs");
@@ -24,13 +25,14 @@ function authenticateToken(req, res, next) {
 app.use(cors(corsOptions))
 app.use(bodyParser.json())
 // app.use(authenticateToken);
+const server = createServer(app);
 
 app.get('/cronTask', (req, res) => {
     console.log('Кронинг')
     res.status(201).json({ message: 'Успешный крауд' });
 });
 
-const io = new Server({
+const io = new Server(server,{
     cors: {
         origin: "*"
     },
@@ -88,10 +90,10 @@ io.on('connection', (socket) => {
     })
 });
 
-io.listen(80);
+// io.listen(80);
 
 
 const PORT = process.env.PORT || 443;
-app.listen(PORT, () => {
+server.listen(PORT, () => {
     console.log(`Сервер запущен на порту ${PORT}`);
 });
