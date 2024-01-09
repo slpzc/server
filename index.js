@@ -25,7 +25,10 @@ app.use(cors(corsOptions))
 app.use(bodyParser.json())
 // app.use(authenticateToken);
 
-
+app.get('/cronTask', (req, res) => {
+    console.log('Кронинг')
+    res.status(201).json({ message: 'Успешный крауд' });
+});
 
 const io = new Server({
     cors: {
@@ -86,3 +89,9 @@ io.on('connection', (socket) => {
 });
 
 io.listen(80);
+
+
+const PORT = process.env.PORT || 443;
+app.listen(PORT, () => {
+    console.log(`Сервер запущен на порту ${PORT}`);
+});
